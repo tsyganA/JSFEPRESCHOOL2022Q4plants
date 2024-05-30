@@ -13,7 +13,7 @@ header {
 }
 
 .plantword {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -42,7 +42,7 @@ ul.headul li {
 
 ul.headul li a {
     text-decoration: none;
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     color: #010201;
 }
@@ -66,7 +66,7 @@ ul.headul li a:hover {
 
 .grow {
     margin: 98px 109px 42px 220px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -77,7 +77,7 @@ ul.headul li a:hover {
 
 .lorem {
     margin: 44px 132.56px 48px 220px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -95,7 +95,7 @@ ul.headul li a:hover {
 }
 
 .learn {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -128,7 +128,7 @@ ul.headul li a:hover {
 }
 
 .wegarden {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -144,7 +144,7 @@ ul.headul li a:hover {
 }
 
 .ablor {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -178,7 +178,7 @@ ul.headul li a:hover {
 }
 
 .project {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -192,7 +192,7 @@ ul.headul li a:hover {
 }
 
 .servbut button {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -223,7 +223,7 @@ ul.headul li a:hover {
 }
 
 .service_item h3 {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -234,7 +234,7 @@ ul.headul li a:hover {
 }
 
 .service_item p {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -275,7 +275,7 @@ ul.headul li a:hover {
 }
 
 .word-prices {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -302,7 +302,7 @@ ul.headul li a:hover {
     background: #edf2ec;
     border-radius: 20px;
     height: 50px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -337,7 +337,7 @@ ul.headul li a:hover {
 }
 
 .acc-open p {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 10px;
@@ -347,7 +347,7 @@ ul.headul li a:hover {
 }
 
 .acc-open p:nth-of-type(2) {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -369,7 +369,7 @@ ul.headul li a:hover {
     height: 25px;
     background: #ffffff;
     border-radius: 10px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -385,7 +385,7 @@ ul.headul li a:hover {
 }
 
 .ourbest {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -404,7 +404,7 @@ ul.headul li a:hover {
 }
 
 .contactus {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -446,7 +446,7 @@ ul.headul li a:hover {
     background: #d6e7d2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -532,7 +532,7 @@ ul.headul li a:hover {
 }
 
 .selectItem span {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -555,7 +555,7 @@ ul.headul li a:hover {
 }
 
 .ciphof {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -570,7 +570,7 @@ ul.headul li a:hover {
 }
 
 .numbstreet {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -585,7 +585,7 @@ ul.headul li a:hover {
 }
 
 .calus {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -608,7 +608,7 @@ ul.headul li a:hover {
 }
 
 .uscont {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -628,7 +628,7 @@ footer {
     justify-content: space-between;
     margin: 40px 336px 40px 105px;
     width: 170px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -636,7 +636,7 @@ footer {
 }
 
 .rolling {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -695,7 +695,7 @@ ul.inst li {
 
     .grow {
         margin: 39px 40px 30px 0px;
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 35px;
@@ -706,7 +706,7 @@ ul.inst li {
 
     .lorem {
         margin: 0px 42px 35px 5px;
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -720,7 +720,7 @@ ul.inst li {
     }
 
     .learn {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -745,7 +745,7 @@ ul.inst li {
     }
 
     .wegarden {
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         font-weight: 400;
         font-size: 35px;
@@ -758,7 +758,7 @@ ul.inst li {
     }
 
     .ablor {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
@@ -792,7 +792,7 @@ ul.inst li {
     }
 
     .project {
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         font-weight: 400;
         font-size: 35px;
@@ -835,7 +835,7 @@ ul.inst li {
     }
 
     .service_item p {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -849,7 +849,7 @@ ul.inst li {
     }
 
     .service_item h3 {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -860,7 +860,7 @@ ul.inst li {
     }
 
     .word-prices {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 35px;
@@ -873,7 +873,7 @@ ul.inst li {
     }
 
     .ourbest {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
@@ -884,7 +884,7 @@ ul.inst li {
     }
 
     .contactus {
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -953,9 +953,6 @@ ul.inst li {
         margin: 0;
     }
 }
-
-
-
 
 @media screen and (max-width: 767.98px) {
     .leveling {
@@ -1084,7 +1081,7 @@ ul.inst li {
 
     ul.headul li a {
         text-decoration: none;
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         color: #717171;
     }
