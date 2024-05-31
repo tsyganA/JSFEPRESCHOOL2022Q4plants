@@ -63,12 +63,12 @@ ul.headul li a:hover {
 }
 
 .rever-welc {
-    width: 1222px;
+    max-width: 1222px;
     margin: 0 auto;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
-    padding: 64px 0 55px 0;
+    padding: 64px 50px 55px 50px;
 }
 
 .grow {
@@ -79,7 +79,7 @@ ul.headul li a:hover {
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-    width: 549px;
+    max-width: 549px;
 }
 
 .lorem {
@@ -144,6 +144,7 @@ ul.headul li a:hover {
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
+    padding: 0 50px 0 50px;
 }
 
 .wegarden {
@@ -243,7 +244,7 @@ ul.headul li a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     /* margin: 0px 0 67px 0; */
-    width: 1222px;
+    max-width: 1222px;
 }
 
 .service_item h3 {
@@ -293,8 +294,9 @@ ul.headul li a:hover {
 .leveling-service {
     max-width: 1222px;
     margin: 0 auto;
-    padding-top: 8px;
-    padding-bottom: 66px;
+    /* padding-top: 8px;
+    padding-bottom: 66px; */
+    padding: 8px 50px 66px 50px;
 }
 
 .prices {
@@ -307,8 +309,9 @@ ul.headul li a:hover {
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 115px;
+    /* padding-top: 40px;
+    padding-bottom: 115px; */
+    padding: 40px 50px 115px 50px;
     /* flex-direction: column; */
 }
 
@@ -429,13 +432,13 @@ ul.headul li a:hover {
     font-size: 40px;
     line-height: 50px;
     text-align: right;
-    width: 452px;
+    max-width: 452px;
     margin: 0 0 40px 0px;
 }
 
 .contaverage {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -686,6 +689,7 @@ footer {
     line-height: 50px;
     /* margin: 40px 280px 40px 0px; */
     text-decoration: none;
+    margin-left: 60px;
 }
 
 .inst {
@@ -709,6 +713,7 @@ ul.inst li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
     /* flex-wrap: wrap; */
     /* justify-content: space-between; */
 }
@@ -725,64 +730,54 @@ ul.inst li {
 }
 
 .burger {
-    /* margin: 23px 25px 36px 0px; */
     display: none;
 }
 
 .popup {
-    /* margin: 23px 25px 36px 0px; */
     display: none;
 }
 
 .leveling-footer {
     max-width: 1222px;
     margin: 0 auto;
-    padding: 39px 0 41px 0;
+    padding: 35px 0 48px 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+@media screen and (max-width: 788px) {
+    .about {
+        /* display: flex; */
+        padding: 0 0 90px 0;
+    }
+
     .leveling {
         width: 668px;
     }
 
     .logo-plants {
         display: flex;
-        margin: 47px 149px 50px 0px;
+        /* margin: 47px 149px 50px 0px; */
     }
 
     .rever-welc {
-        display: flex;
         flex-direction: row-reverse;
+        padding: 5px 50px 40px 50px;
     }
 
     header {
-        display: flex;
-        /* height: 117px; */
-        /* left: 0px;
-        top: 0px; */
-        background: #edf2ec;
+        /* padding: 0; */
     }
 
     .grow {
-        margin: 39px 40px 30px 0px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
+        /* margin: 39px 40px 30px 0px; */
         font-size: 35px;
-        line-height: 50px;
-        color: #717171;
-        width: 341px;
+        max-width: 341px;
     }
 
     .lorem {
-        margin: 0px 42px 35px 5px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
+        margin: 31px 0 35px 4px;
         font-size: 16px;
         line-height: 25px;
-        color: #636060;
-        width: 341px;
+        max-width: 341px;
     }
 
     .leafs {
@@ -790,20 +785,7 @@ ul.inst li {
     }
 
     .learn {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        color: #000000;
-        box-sizing: border-box;
-        border: 2px solid #e06733;
-        border-radius: 10px;
-        margin: 0px 230px 70px 0px;
+        /* margin: 0px 230px 70px 0px; */
         width: 158px;
         height: 44px;
         background: #edf2ec;
@@ -814,35 +796,30 @@ ul.inst li {
         height: 265px;
     }
 
+    /* .leveling-service {
+        padding-left: 50px;
+        padding-right: 50px;
+    } */
+
     .wegarden {
-        font-family: 'Inika';
-        font-style: normal;
-        font-weight: 400;
         font-size: 35px;
         line-height: 46px;
-        color: #499a18;
-        width: 423px;
-        height: 102px;
-        margin: 40px 0px 40px 0px;
+        max-width: 423px;
+        /* height: 102px; */
+        margin: 40px 0px 30px 0px;
         text-align: center;
     }
 
     .ablor {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        color: #636060;
-        width: 668px;
-        height: 208px;
-        margin: 0px 0px 40px 0px;
+        max-width: 668px;
+        /* height: 208px; */
+        /* margin: 0px 0px 40px 0px; */
     }
 
     .houseplant {
         width: 250px;
         height: 258px;
-        margin: 0px 0px 90px 0px;
+        margin: 45px 0px 4px 0px;
     }
 
     .alabout {
@@ -861,24 +838,28 @@ ul.inst li {
         display: inline;
     }
 
+    .leveling-service {
+        padding-bottom: 2px;
+    }
+
     .project {
-        font-family: 'Inika';
-        font-style: normal;
-        font-weight: 400;
         font-size: 35px;
         line-height: 46px;
-        color: #499a18;
         width: 306px;
-        height: 94px;
-        margin-left: 0px;
-        margin-top: 60px;
+        /* height: 94px; */
+        /* margin-left: 0px; */
+        margin-top: 52px;
         margin-bottom: 40px;
+    }
+
+    .priceour {
+        /* margin: 0 50px 0 50px; */
+        padding-bottom: 0;
     }
 
     .servbut {
         display: flex;
         width: 559px;
-        /* height: 50px; */
         justify-content: space-between;
         margin: 0px 0px 40px 0px;
     }
@@ -930,12 +911,9 @@ ul.inst li {
     }
 
     .word-prices {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
         font-size: 35px;
         line-height: 42px;
-        margin: 40px 0px 57px 14px;
+        margin: 0 0 57px 14px;
     }
 
     .bastapro {
@@ -943,14 +921,11 @@ ul.inst li {
     }
 
     .ourbest {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
         font-size: 25px;
         line-height: 35px;
-        text-align: right;
-        width: 296px;
-        margin: 139px 0px 22px 42px;
+        /* text-align: right; */
+        max-width: 296px;
+        margin: 98px 0px 22px 0px;
     }
 
     .contactus {
@@ -980,17 +955,19 @@ ul.inst li {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        width: 668px;
+        max-width: 668px;
     }
 
     .uscity {
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .uscont {
-        margin: 40px auto 100px auto;
-        width: 192px;
-        height: 51px;
+        margin: 12px 0 100px 0;
+        max-width: 192px;
+        /* height: 51px; */
     }
 
     .btn-city {
@@ -1001,7 +978,11 @@ ul.inst li {
     .img-woman {
         width: 200px;
         height: 248.49px;
-        margin: 244px 0px 0px 20px;
+        margin: 248px 0px 0px 20px;
+    }
+
+    .leveling-footer {
+        padding: 0 50px 50px 50px;
     }
 
     .year {
@@ -1010,7 +991,7 @@ ul.inst li {
     }
 
     .rolling {
-        margin: 0px 20px 15px 29px;
+        margin: 0px 0px 15px 0px;
     }
 
     .gitrofe {
@@ -1021,10 +1002,11 @@ ul.inst li {
 
     .inst {
         margin: 0;
+        padding: 0;
     }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 380px) {
     .leveling {
         width: 330px;
     }
