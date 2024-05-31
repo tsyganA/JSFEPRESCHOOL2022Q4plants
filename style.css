@@ -5,11 +5,12 @@ body {
 }
 
 header {
-    display: flex;
-    height: 134px;
+    /* display: flex; */
+    /* height: 134px;
     left: 0px;
-    top: 0px;
+    top: 0px; */
     background: #edf2ec;
+    padding: 42px 0;
 }
 
 .plantword {
@@ -22,7 +23,7 @@ header {
 
 .logo-plants {
     display: flex;
-    margin: 56.04px 702px 60.96px 111px;
+    /* margin: 56.04px 702px 60.96px 111px; */
 }
 
 .headul {
@@ -36,8 +37,9 @@ header {
 
 ul.headul li {
     display: inline;
-    margin-top: 42px;
-    margin-bottom: 42px;
+    /* padding: 0 0 0 46.5px; */
+    /* margin-top: 42px;
+    margin-bottom: 42px; */
 }
 
 ul.headul li a {
@@ -61,11 +63,16 @@ ul.headul li a:hover {
 }
 
 .rever-welc {
+    width: 1222px;
+    margin: 0 auto;
     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 64px 0 55px 0;
 }
 
 .grow {
-    margin: 98px 109px 42px 220px;
+    /* margin: 98px 0 42px 0; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -76,7 +83,7 @@ ul.headul li a:hover {
 }
 
 .lorem {
-    margin: 44px 132.56px 48px 220px;
+    margin: 44px 0 48px 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -86,8 +93,15 @@ ul.headul li a:hover {
     width: 525.44px;
 }
 
+.welearn {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* order: 2; */
+    padding: 10px 0 31.36px 0;
+}
+
 .leafs {
-    margin: 53px 0px 50px 96px;
+    /* margin: 53px 0px 50px 0; */
 }
 
 .plants {
@@ -108,7 +122,7 @@ ul.headul li a:hover {
     box-sizing: border-box;
     border: 2px solid #e06733;
     border-radius: 10px;
-    margin: 48px 500px 94px 220px;
+    /* margin: 48px 500px 94px 220px; */
     width: 158px;
     height: 44px;
     background: #edf2ec;
@@ -120,11 +134,16 @@ ul.headul li a:hover {
 }
 
 .about {
-    display: flex;
+    /* display: flex; */
+    padding: 93px 0 90px 0;
 }
 
 .alabout {
     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
 }
 
 .wegarden {
@@ -134,9 +153,9 @@ ul.headul li a:hover {
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    width: 463px;
-    height: 102px;
-    margin: 160px 295px 40px 105px;
+    max-width: 463px;
+    /* height: 102px; */
+    margin: 68px 0 37px 0;
 }
 
 .profexper {
@@ -150,21 +169,26 @@ ul.headul li a:hover {
     font-size: 20px;
     line-height: 30px;
     color: #636060;
-    width: 605px;
-    height: 208px;
-    margin-left: 105px;
+    max-width: 605px;
+    /* height: 208px; */
+    /* margin-left: 105px;
     margin-right: 153px;
-    margin-bottom: 155px;
+    margin-bottom: 155px; */
 }
 
 .houseplant {
-    margin-top: 92px;
+    /* margin-top: 92px;
     margin-right: 109px;
-    margin-bottom: 90px;
+    margin-bottom: 90px; */
 }
 
 .galpl {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1005px;
+    justify-content: space-between;
+    padding-bottom: 45px;
 }
 
 .buttglp.active {
@@ -184,11 +208,11 @@ ul.headul li a:hover {
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    width: 306px;
-    height: 94px;
-    margin-left: 106px;
+    max-width: 306px;
+    /* height: 94px; */
+    /* margin-left: 106px;
     margin-top: 40px;
-    margin-bottom: 88px;
+    margin-bottom: 88px; */
 }
 
 .servbut button {
@@ -211,14 +235,14 @@ ul.headul li a:hover {
     width: 559px;
     /* height: 50px; */
     justify-content: space-between;
-    margin: 69px 324px 105px 142px;
+    /* margin: 69px 324px 105px 142px; */
 }
 
 .servimg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0px 105px 67px 105px;
+    /* margin: 0px 0 67px 0; */
     width: 1222px;
 }
 
@@ -266,12 +290,26 @@ ul.headul li a:hover {
     background: #edf2ec;
 }
 
+.leveling-service {
+    max-width: 1222px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 66px;
+}
+
 .prices {
-    display: flex;
+    /* display: flex; */
 }
 
 .priceour {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 115px;
+    /* flex-direction: column; */
 }
 
 .word-prices {
@@ -280,7 +318,7 @@ ul.headul li a:hover {
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    margin: 38px 646px 60px 106px;
+    margin: 0 0 60px 0;
 }
 
 .bastapro {
@@ -292,7 +330,7 @@ ul.headul li a:hover {
     /* height: 282.01px;  */
     border: 1px solid #e3e1d5;
     border-radius: 20px;
-    margin: 0px 0px 128.98px 105px;
+    /* margin: 0px 0px 128.98px 105px; */
     gap: 32px;
 }
 
@@ -392,11 +430,16 @@ ul.headul li a:hover {
     line-height: 50px;
     text-align: right;
     width: 452px;
-    margin: 38px 109px 40px 0px;
+    margin: 0 0 40px 0px;
 }
 
 .contaverage {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding-top: 25px;
 }
 
 .uscity {
@@ -417,7 +460,7 @@ ul.headul li a:hover {
     border: 1px solid #e06733;
     border-radius: 5px;
     background: #ffffff;
-    margin-right: 109px;
+    /* margin-right: 109px; */
     margin-bottom: 39px;
 }
 
@@ -430,11 +473,11 @@ ul.headul li a:hover {
 .imgleafsprice {
     width: 152px;
     height: 174.99px;
-    margin-right: 109px;
+    /* margin-right: 109px; */
 }
 
 .contacts {
-    display: flex;
+    /* display: flex; */
     background: #edf2ec;
 }
 
@@ -453,7 +496,7 @@ ul.headul li a:hover {
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171;
-    margin: 148px 0px 0px 0px;
+    margin: 122px 0px 0px 0px;
     padding-left: 20px;
     padding-right: 35px;
     width: 395px;
@@ -604,7 +647,7 @@ ul.headul li a:hover {
 } */
 
 .img-woman {
-    margin: 53px 113px 0px 106px;
+    margin: 27px 113px 0px 0;
 }
 
 .uscont {
@@ -614,9 +657,9 @@ ul.headul li a:hover {
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-right: 68px;
-    height: 51px;
+    /* height: 51px; */
 }
 
 footer {
@@ -626,7 +669,7 @@ footer {
 .year {
     display: flex;
     justify-content: space-between;
-    margin: 40px 336px 40px 105px;
+    /* margin: 40px 336px 40px 105px; */
     width: 170px;
     font-family: 'Inter';
     font-style: normal;
@@ -641,7 +684,7 @@ footer {
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    margin: 40px 280px 40px 0px;
+    /* margin: 40px 280px 40px 0px; */
     text-decoration: none;
 }
 
@@ -660,14 +703,41 @@ ul.inst li {
     display: inline;
 }
 
-.leveling {
+.leveling-header {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1218px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
 }
 
 .gitrofe {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img {
+    width: 19px;
+    height: 20px;
+}
+
+.burger {
+    /* margin: 23px 25px 36px 0px; */
+    display: none;
+}
+
+.popup {
+    /* margin: 23px 25px 36px 0px; */
+    display: none;
+}
+
+.leveling-footer {
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 39px 0 41px 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439.98px) {
@@ -687,9 +757,9 @@ ul.inst li {
 
     header {
         display: flex;
-        height: 117px;
-        left: 0px;
-        top: 0px;
+        /* height: 117px; */
+        /* left: 0px;
+        top: 0px; */
         background: #edf2ec;
     }
 
@@ -977,10 +1047,10 @@ ul.inst li {
         display: none;
     }
 
-    .logo_img {
+    /* .logo_img {
         width: 19px;
         height: 20px;
-    }
+    } */
 
     .acc-open.opened {
         width: 96px;
