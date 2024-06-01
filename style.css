@@ -1081,7 +1081,8 @@ ul.inst li {
     /* burger start */
 
     .burger {
-        margin: 23px 25px 36px 0px;
+        display: block;
+        margin: 0 25px 0 0px;
     }
 
     .popup {
@@ -1154,7 +1155,7 @@ ul.inst li {
     /* burger end*/
 
     .logo-plants {
-        margin: 36px 224px 39px 0px;
+        margin: 0;
     }
 
     .leafs {
