@@ -1082,7 +1082,7 @@ ul.inst li {
 
     .burger {
         display: block;
-        margin: 0 25px 0 0px;
+        margin: 0;
     }
 
     .popup {
@@ -1163,15 +1163,15 @@ ul.inst li {
     }
 
     .grow {
-        margin: 0px 0px 17px 0px;
+        margin: 5px 0px 17px 0px;
         font-size: 25px;
         line-height: 35px;
-        width: 330px;
-        height: 72px;
+        max-width: 330px;
+        /* height: 72px; */
     }
 
     header {
-        height: 119px;
+        /* height: 119px; */
     }
 
     .lorem {
@@ -1384,5 +1384,23 @@ ul.inst li {
 
     .inst {
         margin: 0px 0px 0px 32px;
+    }
+
+    .leveling-header {
+        max-width: 327px;
+        padding: 0;
+    }
+
+    .rever-welc {
+        /* flex-direction: row-reverse; */
+        padding: 0;
+        justify-content: center;
+    }
+
+    .welearn {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* order: 2; */
+        padding: 10px 0 0px 0;
     }
 }
