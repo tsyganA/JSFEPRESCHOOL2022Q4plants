@@ -90,7 +90,7 @@ ul.headul li a:hover {
     font-size: 20px;
     line-height: 35px;
     color: #636060;
-    width: 525.44px;
+    max-width: 525.44px;
 }
 
 .welearn {
@@ -831,7 +831,7 @@ ul.inst li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 668px;
+        max-width: 668px;
     }
 
     .galpl {
@@ -1201,7 +1201,7 @@ ul.inst li {
         color: #499a18;
         width: 288px;
         height: 57.74px;
-        margin: 30px 0px 22px 20px;
+        margin: 11px 0px 22px 0;
         text-align: center;
     }
 
@@ -1217,7 +1217,7 @@ ul.inst li {
     .houseplant {
         width: 150px;
         height: 147px;
-        margin: 0px 0px 26px 90px;
+        margin: 0;
     }
 
     .galpl {
@@ -1237,7 +1237,7 @@ ul.inst li {
         line-height: 33px;
         width: 187px;
         height: 69px;
-        margin: 30px 0px 5px 0px;
+        margin: 0 0 5px 0;
     }
 
     .servbut button {
@@ -1263,7 +1263,7 @@ ul.inst li {
     .service_item {
         width: 280px;
         height: 450px;
-        margin-bottom: 32px;
+        margin-bottom: 31px;
     }
 
     .service_item p {
@@ -1287,7 +1287,7 @@ ul.inst li {
     .word-prices {
         font-size: 25px;
         line-height: 30px;
-        margin: 19px 0px 37px 126px;
+        margin: 6px 0px 37px 0;
     }
 
     .accord {
@@ -1309,7 +1309,7 @@ ul.inst li {
         padding: 29px 22px;
         width: 224px;
         /* height: 235px; */
-        margin: 0px 0px 19px 53px;
+        margin: 0px 0px 19px 0;
         gap: 13px;
     }
 
@@ -1323,7 +1323,7 @@ ul.inst li {
 
     .bestus {
         align-items: center;
-        margin: 0 48px;
+        /* margin: 0; */
     }
 
     .contactus {
@@ -1331,7 +1331,7 @@ ul.inst li {
         line-height: 20px;
         width: 121px;
         height: 35px;
-        margin: 8px 0px 40px 0px;
+        margin: 8px 0px 22px 0px;
     }
 
     .contaverage {
@@ -1340,7 +1340,7 @@ ul.inst li {
     }
 
     .img-woman {
-        margin: 133px 0px 0px 112px;
+        margin: 133px 0 0 0;
         width: 100px;
         height: 124.25px;
     }
@@ -1348,7 +1348,7 @@ ul.inst li {
     .uscont {
         font-size: 25px;
         line-height: 33px;
-        margin: 25px 0px 0px 103px;
+        margin: 0;
         height: 34px;
     }
 
@@ -1358,32 +1358,34 @@ ul.inst li {
 
     .btn-city {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin: 80px 0px 0px 10px;
+        margin: 80px 0 0 0;
         padding-left: 20px;
         padding-right: 20px;
         width: 262px;
     }
 
     .uscity {
-        display: inline;
+        /* display: inline; */
     }
 
     .gitrofe {
         flex-direction: column;
         box-sizing: border-box;
+        margin: 0;
     }
 
     .year {
-        margin: 7px 50px 0px 77px;
+        margin: 7px 0 0 0;
         height: 40px;
     }
 
     .rolling {
-        margin: 0px 20px 0px 60px;
+        margin: 0;
+        width: 210px;
     }
 
     .inst {
-        margin: 0px 0px 0px 32px;
+        margin: 0 0 15px 0;
     }
 
     .leveling-header {
@@ -1402,5 +1404,29 @@ ul.inst li {
         /* flex-direction: column; */
         /* order: 2; */
         padding: 10px 0 0px 0;
+    }
+
+    .about {
+        padding-bottom: 14px;
+    }
+
+    .houseplant_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .leveling-service {
+        padding: 30px 0 0 15px;
+    }
+
+    .word-prices_div {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .leveling-footer {
+        padding: 0;
     }
 }
