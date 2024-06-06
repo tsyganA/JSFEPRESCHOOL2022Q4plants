@@ -795,10 +795,10 @@ ul.inst li {
     .welcome img {
         /* width: 280px; */
         /* height: 265px; */
-        /* width: 80%; */
-        /* height: 60%; */
-        flex-basis: 41.92%;
-        height: 254.15px;
+        width: 100%;
+        height: 100%;
+        /* flex-basis: 41.92%; */
+        /* height: 254.15px; */
     }
 
     /* .leveling-service {
@@ -1013,6 +1013,9 @@ ul.inst li {
 
     .leafs-div {
         display: flex;
+        justify-content: flex-end;
+        width: 280px;
+        height: 265px;
     }
 }
 
@@ -1309,6 +1312,10 @@ ul.inst li {
         height: 57.74px; */
         margin: 11px 0px 16px 0;
         text-align: center;
+    }
+
+    .leafs-div {
+        display: none;
     }
 
     .ablor {
