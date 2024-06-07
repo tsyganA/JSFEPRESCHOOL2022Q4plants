@@ -310,7 +310,7 @@ ul.headul li a:hover {
 
 .priceour {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -865,7 +865,7 @@ ul.inst li {
 
     .priceour {
         /* margin: 0 50px 0 50px; */
-        padding-bottom: 0;
+        padding-bottom: 90px;
     }
 
     .servbut {
@@ -928,7 +928,7 @@ ul.inst li {
     }
 
     .bastapro {
-        margin: 0px 0px 163px 0px;
+        margin: 0;
     }
 
     .ourbest {
@@ -936,7 +936,7 @@ ul.inst li {
         line-height: 35px;
         /* text-align: right; */
         max-width: 296px;
-        margin: 98px 0px 22px 0px;
+        margin: 0 0px 22px 0px;
     }
 
     .contactus {
@@ -953,7 +953,7 @@ ul.inst li {
         border: 1px solid #e06733;
         border-radius: 5px;
         background: #ffffff;
-        margin: 7px 0px 34px 124px;
+        margin: 7px 0px 34px 0;
     }
 
     .imgleafsprice {
@@ -993,7 +993,7 @@ ul.inst li {
     }
 
     .leveling-footer {
-        padding: 0 50px 50px 50px;
+        padding: 0 0 50px 0;
     }
 
     .year {
@@ -1118,6 +1118,49 @@ ul.inst li {
         margin: 6px auto;
         background-color: #717171;
         transition: 0.5s;
+    }
+
+    .priceour {
+        display: inline;
+    }
+
+    .bestus {
+        align-items: center;
+        /* margin: 0; */
+    }
+
+    .imgleafsprice {
+        display: none;
+    }
+
+    .ourbest {
+        text-align: center;
+        margin: 0px 22px 0px;
+    }
+
+    .word-prices_div {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .word-prices {
+        /* font-size: 25px; */
+        /* line-height: 30px; */
+        margin: 6px 0px 37px 0;
+    }
+
+    .btn-city {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 262px;
+    }
+
+    .bastapro {
+        margin: 0px 0px 19px 0;
     }
 }
 
@@ -1396,13 +1439,13 @@ ul.inst li {
         margin-bottom: 10px;
     }
 
-    .priceour {
+    /* .priceour {
         display: inline;
-    }
+    } */
 
-    .imgleafsprice {
+    /* .imgleafsprice {
         display: none;
-    }
+    } */
 
     .word-prices {
         font-size: 25px;
@@ -1429,7 +1472,7 @@ ul.inst li {
         padding: 29px 22px;
         width: 224px;
         /* height: 235px; */
-        margin: 0px 0px 19px 0;
+        /* margin: 0px 0px 19px 0; */
         gap: 13px;
     }
 
@@ -1439,11 +1482,6 @@ ul.inst li {
         text-align: center;
         max-width: 230px;
         margin: 0px 0px 12px 0px;
-    }
-
-    .bestus {
-        align-items: center;
-        /* margin: 0; */
     }
 
     .contactus {
@@ -1468,7 +1506,7 @@ ul.inst li {
     .uscont {
         font-size: 25px;
         line-height: 33px;
-        margin: 0;
+        margin: 0 0 80px 0;
         /* height: 34px; */
     }
 
@@ -1476,13 +1514,13 @@ ul.inst li {
         margin-top: 43px;
     }
 
-    .btn-city {
+    /* .btn-city {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin: 80px 0 0 0;
         padding-left: 20px;
         padding-right: 20px;
         width: 262px;
-    }
+    } */
 
     .uscity {
         /* display: inline; */
