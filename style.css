@@ -103,6 +103,9 @@ ul.headul li a:hover {
 
 .leafs {
     /* margin: 53px 0px 50px 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    height: clamp(17rem, calc(30.5vw - 3.7rem), 26.5rem);
 }
 
 .plants {
@@ -182,6 +185,7 @@ ul.headul li a:hover {
     /* margin-top: 92px;
     margin-right: 109px;
     margin-bottom: 90px; */
+    height: clamp(17rem, calc(32.3vw - 3.7rem), 29.8rem);
 }
 
 .galpl {
@@ -796,8 +800,9 @@ ul.inst li {
         /* width: 280px; */
         /* height: 265px; */
         width: 100%;
-        height: 100%;
-        /* flex-basis: 41.92%; */
+        /* height: 100%; */
+        height: clamp(1.95rem, calc(43vw - 3.7rem), 140rem);
+        /* flex-basis: 100%; */
         /* height: 254.15px; */
     }
 
@@ -837,6 +842,7 @@ ul.inst li {
         flex-direction: column;
         align-items: center;
         max-width: 668px;
+        /* padding-left: 10px; */
     }
 
     .galpl {
@@ -1312,6 +1318,7 @@ ul.inst li {
         height: 57.74px; */
         margin: 11px 0px 16px 0;
         text-align: center;
+        /* max-width: 290px; */
     }
 
     .leafs-div {
@@ -1522,6 +1529,7 @@ ul.inst li {
 
     .about {
         padding-bottom: 14px;
+        /* padding-left: 10px; */
     }
 
     .houseplant_div {
@@ -1542,5 +1550,12 @@ ul.inst li {
 
     .leveling-footer {
         padding: 0;
+    }
+
+    .welore {
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: stretch;
+        /* margin-left: 10px; */
     }
 }
