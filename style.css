@@ -655,7 +655,8 @@ ul.headul li a:hover {
 } */
 
 .img-woman {
-    margin: 27px 113px 0px 0;
+    margin: 27px 0 0px 0;
+    height: clamp(10rem, calc(34vw - 3.7rem), 31rem);
 }
 
 .uscont {
@@ -665,9 +666,11 @@ ul.headul li a:hover {
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
+    margin-left: 40px;
     /* margin-top: 60px; */
-    margin-right: 68px;
+    /* margin-right: 68px; */
     /* height: 51px; */
+    /* width: 191px; */
 }
 
 footer {
@@ -936,7 +939,7 @@ ul.inst li {
         line-height: 35px;
         /* text-align: right; */
         max-width: 296px;
-        margin: 0 0px 22px 0px;
+        margin: 98px 0px 22px 0px;
     }
 
     .contactus {
@@ -973,17 +976,20 @@ ul.inst li {
         display: flex;
         flex-direction: column;
         align-items: center;
+        order: 1;
     }
 
     .uscont {
         margin: 12px 0 100px 0;
         max-width: 192px;
         /* height: 51px; */
+        /* order: 1; */
     }
 
     .btn-city {
         margin: 0px 0px 0px 0px;
         width: 395px;
+        /* order: 2; */
     }
 
     .img-woman {
