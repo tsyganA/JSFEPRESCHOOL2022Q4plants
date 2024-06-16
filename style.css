@@ -310,7 +310,7 @@ ul.headul li a:hover {
 
 .priceour {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -334,7 +334,7 @@ ul.headul li a:hover {
     flex-direction: column;
     box-sizing: border-box;
     padding: 34px 41px;
-    width: 332px;
+    max-width: 332px;
     /* height: 282.01px;  */
     border: 1px solid #e3e1d5;
     border-radius: 20px;
@@ -402,7 +402,7 @@ ul.headul li a:hover {
 }
 
 .accordacc {
-    width: 250px;
+    /* width: 250px; */
 }
 
 .red-bastapro {
@@ -443,11 +443,11 @@ ul.headul li a:hover {
 
 .contaverage {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding: 25px 50px 0 50px;
 }
 
 .uscity {
@@ -882,7 +882,7 @@ ul.inst li {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 30px 0;
         max-width: 668px;
     }
 
@@ -1127,7 +1127,9 @@ ul.inst li {
     }
 
     .priceour {
-        display: inline;
+        /* display: inline; */
+        display: flex;
+        flex-direction: column;
     }
 
     .bestus {
@@ -1469,14 +1471,14 @@ ul.inst li {
 
     .bastapro div {
         /* height: 177px; */
-        row-gap: 14px;
-        margin: 0;
-        padding: 0;
+        /* row-gap: 14px; */
+        /* margin: 0; */
+        /* padding: 0; */
     }
 
     .bastapro {
         padding: 29px 22px;
-        width: 224px;
+        max-width: 224px;
         /* height: 235px; */
         /* margin: 0px 0px 19px 0; */
         gap: 13px;
@@ -1601,5 +1603,25 @@ ul.inst li {
         padding-right: 15px;
         align-items: stretch;
         /* margin-left: 10px; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .servimg {
+        margin: 0;
+    }
+
+    .priceour {
+        /* margin: 0 10px; */
+        /* padding: 0 10px; */
+    }
+
+    .prices {
+        /* display: flex; */
+        padding: 0 10px;
+    }
+
+    .bastapro {
+        /* padding: 0 10px; */
     }
 }
