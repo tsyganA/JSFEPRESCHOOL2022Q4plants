@@ -2,6 +2,7 @@ html,
 body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -48,6 +49,7 @@ ul.headul li a {
     font-family: 'Inika';
     font-style: normal;
     color: #010201;
+    /* transition: all 0.3s ease-out; */
 }
 
 ul.headul li a:hover {
@@ -135,6 +137,7 @@ ul.headul li a:hover {
 .learn:hover {
     background: #e06733;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .about {
@@ -234,6 +237,7 @@ ul.headul li a:hover {
     width: 161px;
     height: 50px;
     background: #edf2ec;
+    cursor: pointer;
 }
 
 .servbut {
@@ -310,7 +314,7 @@ ul.headul li a:hover {
 
 .priceour {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -650,6 +654,18 @@ ul.headul li a:hover {
     margin: 18px 0px 0px 164px;
 }
 
+.calus:hover {
+    background: #e06733;
+    /* color: #ffffff; */
+    cursor: pointer;
+}
+
+.calus:hover a {
+    /* background: #e06733; */
+    color: #ffffff;
+    /* cursor: pointer; */
+}
+
 /* .selectCity.active button {
     display: none;
 } */
@@ -674,7 +690,7 @@ ul.headul li a:hover {
 }
 
 footer {
-    height: 130px;
+    /* height: 130px; */
 }
 
 .year {
@@ -686,7 +702,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 50px;
+    /* line-height: 50px; */
 }
 
 .rolling {
@@ -698,6 +714,12 @@ footer {
     /* margin: 40px 280px 40px 0px; */
     text-decoration: none;
     margin-left: 60px;
+    color: #000000;
+}
+
+.rolling:hover {
+    cursor: pointer;
+    color: #e06733;
 }
 
 .inst {
@@ -709,6 +731,12 @@ footer {
 
 .github {
     text-decoration: none;
+    color: #000000;
+}
+
+.github:hover {
+    cursor: pointer;
+    color: #e06733;
 }
 
 ul.inst li {
@@ -749,6 +777,27 @@ ul.inst li {
     max-width: 1222px;
     margin: 0 auto;
     padding: 35px 0 48px 0;
+}
+
+/* .rolling {
+    color: #000000;
+} */
+
+.contactus a {
+    text-decoration: none;
+    color: #e06733;
+}
+
+.contactus:hover {
+    background: #e06733;
+    /* color: #ffffff; */
+    cursor: pointer;
+}
+
+.contactus:hover a {
+    /* background: #e06733; */
+    color: #ffffff;
+    /* cursor: pointer; */
 }
 
 @media screen and (max-width: 788px) {
@@ -1004,7 +1053,7 @@ ul.inst li {
 
     .year {
         margin: 20px 50px 0px 48px;
-        height: 40px;
+        /* height: 40px; */
     }
 
     .rolling {
@@ -1359,6 +1408,8 @@ ul.inst li {
 
     .alabout {
         display: inline;
+        /* padding-left: 15px;
+        padding-right: 15px; */
     }
 
     .wegarden {
@@ -1470,6 +1521,7 @@ ul.inst li {
     }
 
     .bastapro div {
+        /* flex-wrap: wrap; */
         /* height: 177px; */
         /* row-gap: 14px; */
         /* margin: 0; */
@@ -1537,12 +1589,13 @@ ul.inst li {
     .gitrofe {
         flex-direction: column;
         box-sizing: border-box;
-        margin: 0;
+        flex-wrap: wrap;
+        margin: 0 15px;
     }
 
     .year {
         margin: 7px 0 0 0;
-        height: 40px;
+        /* height: 40px; */
     }
 
     .rolling {
@@ -1584,7 +1637,7 @@ ul.inst li {
     }
 
     .leveling-service {
-        padding: 30px 0 0 15px;
+        padding: 30px 0 0 10px;
     }
 
     .word-prices_div {
@@ -1592,6 +1645,7 @@ ul.inst li {
         /* justify-content: center; */
         align-items: center;
         flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .leveling-footer {
@@ -1599,8 +1653,8 @@ ul.inst li {
     }
 
     .welore {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         align-items: stretch;
         /* margin-left: 10px; */
     }
@@ -1612,8 +1666,8 @@ ul.inst li {
     }
 
     .priceour {
-        /* margin: 0 10px; */
-        /* padding: 0 10px; */
+        margin: 0;
+        padding: 0;
     }
 
     .prices {
@@ -1623,5 +1677,9 @@ ul.inst li {
 
     .bastapro {
         /* padding: 0 10px; */
+    }
+
+    .contaverage {
+        padding-left: 10px;
     }
 }
