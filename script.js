@@ -231,3 +231,21 @@ function butPlanting(event) {
         }
     }
 }
+
+document.addEventListener('click', function (event) {
+    var target = event.target;
+    if (target.hasAttribute('data-goto')) {
+        event.preventDefault();
+        var goto = target.getAttribute('data-goto');
+        if (goto.startsWith('#')) {
+            // Прокрутка к элементу
+            var element = document.querySelector(goto);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        } else {
+            // Переход на другую страницу
+            window.location.href = goto;
+        }
+    }
+});

@@ -336,9 +336,9 @@ ul.headul li a:hover {
 .bastapro {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 34px 41px;
-    max-width: 332px;
+    width: 248px;
     /* height: 282.01px;  */
     border: 1px solid #e3e1d5;
     border-radius: 20px;
@@ -362,8 +362,12 @@ ul.headul li a:hover {
     padding-left: 40px;
     padding-right: 40px;
     border: transparent;
-    width: 250px;
+    /* width: 250px; */
     /* margin-bottom: 32px; */
+}
+
+.accord:hover {
+    cursor: pointer;
 }
 
 .accord.opened {
@@ -429,6 +433,20 @@ ul.headul li a:hover {
     border: 0;
 }
 
+.btn-order:hover {
+    /* cursor: pointer; */
+    background: #e06733;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-order:hover a {
+    /* cursor: pointer; */
+    /* background: #e06733; */
+    color: #ffffff;
+    /* cursor: pointer; */
+}
+
 .btn-order a {
     text-decoration: none;
     color: #717171;
@@ -447,7 +465,7 @@ ul.headul li a:hover {
 
 .contaverage {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -514,6 +532,14 @@ ul.headul li a:hover {
     width: 395px;
 }
 
+.btn-city:hover {
+    cursor: pointer;
+}
+
+.selectItem:hover {
+    cursor: pointer;
+}
+
 .btn-city.active.passive {
     display: none;
 }
@@ -558,7 +584,7 @@ ul.headul li a:hover {
 .selectCity.active.passive {
     padding: 0px;
     margin: 148px 0px 0px 0px;
-    width: 450px;
+    /* width: 450px; */
     padding-bottom: 31px;
     background: #edf2ec;
 }
@@ -776,7 +802,7 @@ ul.inst li {
 .leveling-footer {
     max-width: 1222px;
     margin: 0 auto;
-    padding: 35px 0 48px 0;
+    padding: 35px 50px 48px 50px;
 }
 
 /* .rolling {
@@ -798,6 +824,62 @@ ul.inst li {
     /* background: #e06733; */
     color: #ffffff;
     /* cursor: pointer; */
+}
+
+.accordion_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: #d9d9d9;
+    border-radius: 45%;
+}
+
+.accord.opened .accordion_button {
+    transition: all 0.4s ease-out;
+    background-color: #aea1a1;
+}
+
+.btn-city.active .accordion_button {
+    transition: all 0.4s ease-out;
+    background-color: #aea1a1;
+}
+
+.arrow {
+    transition: all 0.4s ease-out;
+    width: 2px;
+    height: 2px;
+    transform: rotate(45deg);
+    border-bottom: 0.5px solid #717171;
+    border-right: 0.5px solid #717171;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+/* ._accordion_button_opened {
+    transition: all 0.4s ease-out;
+    background-color: #aea1a1;
+} */
+
+.accord.opened .arrow {
+    transform: rotate(225deg);
+    border-bottom: 0.5px solid #ffffff;
+    border-right: 0.5px solid #ffffff;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+.btn-city.active .arrow {
+    transform: rotate(225deg);
+    border-bottom: 0.5px solid #ffffff;
+    border-right: 0.5px solid #ffffff;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+.noscroll {
+    overflow: hidden;
 }
 
 @media screen and (max-width: 788px) {
@@ -822,6 +904,7 @@ ul.inst li {
 
     header {
         /* padding: 0; */
+        /* padding: 20px 0; */
     }
 
     .grow {
@@ -1019,6 +1102,7 @@ ul.inst li {
         flex-direction: column-reverse;
         align-items: center;
         max-width: 668px;
+        flex-wrap: wrap;
     }
 
     .uscity {
@@ -1052,7 +1136,7 @@ ul.inst li {
     }
 
     .year {
-        margin: 20px 50px 0px 48px;
+        margin: 36px 50px 0px 48px;
         /* height: 40px; */
     }
 
@@ -1219,6 +1303,43 @@ ul.inst li {
     .bastapro {
         margin: 0px 0px 19px 0;
     }
+
+    header {
+        /* height: 119px; */
+        /* padding: 36px 0; */
+        padding: 33px 0;
+    }
+
+    .leveling-header {
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+
+    .rever-welc {
+        /* flex-direction: row-reverse; */
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .alabout {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .leveling-service {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .priceour {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .contaverage {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -1290,7 +1411,7 @@ ul.inst li {
     }
 
     .selectCity.active {
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 
     /* burger start */
@@ -1378,7 +1499,7 @@ ul.inst li {
     }
 
     .grow {
-        margin: 5px 0px 17px 0px;
+        margin: 8px 0px 17px 0px;
         font-size: 25px;
         line-height: 35px;
         max-width: 330px;
@@ -1387,6 +1508,7 @@ ul.inst li {
 
     header {
         /* height: 119px; */
+        /* padding: 36px 0; */
     }
 
     .lorem {
@@ -1498,9 +1620,10 @@ ul.inst li {
         margin-bottom: 10px;
     }
 
-    /* .priceour {
-        display: inline;
-    } */
+    .priceour {
+        /* display: inline; */
+        padding: 19px 50px 18px 50px;
+    }
 
     /* .imgleafsprice {
         display: none;
@@ -1517,7 +1640,7 @@ ul.inst li {
         font-size: 15px;
         padding-left: 30px;
         padding-right: 40px;
-        width: 176px;
+        /* width: 176px; */
     }
 
     .bastapro div {
@@ -1530,7 +1653,7 @@ ul.inst li {
 
     .bastapro {
         padding: 29px 22px;
-        max-width: 224px;
+        max-width: 178px;
         /* height: 235px; */
         /* margin: 0px 0px 19px 0; */
         gap: 13px;
@@ -1555,6 +1678,7 @@ ul.inst li {
     .contaverage {
         display: flex;
         flex-direction: column-reverse;
+        padding: 25px 50px 0 27px;
     }
 
     .img-woman {
@@ -1594,12 +1718,12 @@ ul.inst li {
     }
 
     .year {
-        margin: 7px 0 0 0;
+        margin: 20px 0 0 0;
         /* height: 40px; */
     }
 
     .rolling {
-        margin: 0;
+        margin: 5px 0 0 0;
         width: 210px;
     }
 
@@ -1623,7 +1747,7 @@ ul.inst li {
         /* display: flex; */
         /* flex-direction: column; */
         /* order: 2; */
-        padding: 10px 0 0 10px;
+        padding: 16px 0 0 10px;
     }
 
     .about {
@@ -1637,7 +1761,7 @@ ul.inst li {
     }
 
     .leveling-service {
-        padding: 30px 0 0 10px;
+        padding: 30px 0 0 15px;
     }
 
     .word-prices_div {
@@ -1653,7 +1777,7 @@ ul.inst li {
     }
 
     .welore {
-        padding-left: 10px;
+        padding-left: 15px;
         padding-right: 10px;
         align-items: stretch;
         /* margin-left: 10px; */
@@ -1681,5 +1805,17 @@ ul.inst li {
 
     .contaverage {
         padding-left: 10px;
+    }
+
+    .leveling-service {
+        padding-left: 10px;
+    }
+
+    .welore {
+        padding-left: 10px;
+    }
+
+    .gitrofe {
+        margin-left: 10px;
     }
 }
