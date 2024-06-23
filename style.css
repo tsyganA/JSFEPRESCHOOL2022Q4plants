@@ -6,10 +6,6 @@ body {
 }
 
 header {
-    /* display: flex; */
-    /* height: 134px;
-    left: 0px;
-    top: 0px; */
     background: #edf2ec;
     padding: 42px 0;
 }
@@ -25,7 +21,6 @@ header {
 
 .logo-plants {
     display: flex;
-    /* margin: 56.04px 702px 60.96px 111px; */
 }
 
 .headul {
@@ -39,9 +34,6 @@ header {
 
 ul.headul li {
     display: inline;
-    /* padding: 0 0 0 46.5px; */
-    /* margin-top: 42px;
-    margin-bottom: 42px; */
 }
 
 ul.headul li a {
@@ -49,7 +41,6 @@ ul.headul li a {
     font-family: 'Inika';
     font-style: normal;
     color: #010201;
-    /* transition: all 0.3s ease-out; */
 }
 
 ul.headul li a:hover {
@@ -69,13 +60,11 @@ ul.headul li a:hover {
     max-width: 1222px;
     margin: 0 auto;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding: 64px 50px 55px 50px;
 }
 
 .grow {
-    /* margin: 98px 0 42px 0; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -97,16 +86,10 @@ ul.headul li a:hover {
 }
 
 .welearn {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* order: 2; */
     padding: 10px 0 31.36px 0;
 }
 
 .leafs {
-    /* margin: 53px 0px 50px 0; */
-    /* width: 100%; */
-    /* height: 100%; */
     height: clamp(17rem, calc(30.5vw - 3.7rem), 26.5rem);
 }
 
@@ -128,7 +111,6 @@ ul.headul li a:hover {
     box-sizing: border-box;
     border: 2px solid #e06733;
     border-radius: 10px;
-    /* margin: 48px 500px 94px 220px; */
     width: 158px;
     height: 44px;
     background: #edf2ec;
@@ -141,13 +123,11 @@ ul.headul li a:hover {
 }
 
 .about {
-    /* display: flex; */
     padding: 93px 0 90px 0;
 }
 
 .alabout {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -162,7 +142,6 @@ ul.headul li a:hover {
     line-height: 52px;
     color: #499a18;
     max-width: 463px;
-    /* height: 102px; */
     margin: 68px 0 37px 0;
 }
 
@@ -178,16 +157,9 @@ ul.headul li a:hover {
     line-height: 30px;
     color: #636060;
     max-width: 605px;
-    /* height: 208px; */
-    /* margin-left: 105px;
-    margin-right: 153px;
-    margin-bottom: 155px; */
 }
 
 .houseplant {
-    /* margin-top: 92px;
-    margin-right: 109px;
-    margin-bottom: 90px; */
     height: clamp(17rem, calc(32.3vw - 3.7rem), 29.8rem);
 }
 
@@ -218,10 +190,6 @@ ul.headul li a:hover {
     line-height: 52px;
     color: #499a18;
     max-width: 306px;
-    /* height: 94px; */
-    /* margin-left: 106px;
-    margin-top: 40px;
-    margin-bottom: 88px; */
 }
 
 .servbut button {
@@ -243,16 +211,13 @@ ul.headul li a:hover {
 .servbut {
     display: flex;
     width: 559px;
-    /* height: 50px; */
     justify-content: space-between;
-    /* margin: 69px 324px 105px 142px; */
 }
 
 .servimg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* margin: 0px 0 67px 0; */
     max-width: 1222px;
 }
 
@@ -303,25 +268,17 @@ ul.headul li a:hover {
 .leveling-service {
     max-width: 1222px;
     margin: 0 auto;
-    /* padding-top: 8px;
-    padding-bottom: 66px; */
-    padding: 8px 50px 66px 50px;
-}
 
-.prices {
-    /* display: flex; */
+    padding: 8px 50px 66px 50px;
 }
 
 .priceour {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
-    /* padding-top: 40px;
-    padding-bottom: 115px; */
+
     padding: 40px 50px 115px 50px;
-    /* flex-direction: column; */
 }
 
 .word-prices {
@@ -336,13 +293,10 @@ ul.headul li a:hover {
 .bastapro {
     display: flex;
     flex-direction: column;
-    /* box-sizing: border-box; */
     padding: 34px 41px;
     width: 248px;
-    /* height: 282.01px;  */
     border: 1px solid #e3e1d5;
     border-radius: 20px;
-    /* margin: 0px 0px 128.98px 105px; */
     gap: 32px;
 }
 
@@ -362,8 +316,6 @@ ul.headul li a:hover {
     padding-left: 40px;
     padding-right: 40px;
     border: transparent;
-    /* width: 250px; */
-    /* margin-bottom: 32px; */
 }
 
 .accord:hover {
@@ -382,8 +334,7 @@ ul.headul li a:hover {
 
 .acc-open.opened {
     display: block;
-    /* width: 250px;
-    height: 154px; */
+
     background: #d6e7d2;
     border-radius: 0px 0px 20px 20px;
     padding: 0px 40px 0px 40px;
@@ -409,10 +360,6 @@ ul.headul li a:hover {
     margin-bottom: 4px;
 }
 
-.accordacc {
-    /* width: 250px; */
-}
-
 .red-bastapro {
     color: #e06733;
     font-size: 15px;
@@ -434,17 +381,13 @@ ul.headul li a:hover {
 }
 
 .btn-order:hover {
-    /* cursor: pointer; */
     background: #e06733;
     color: #ffffff;
     cursor: pointer;
 }
 
 .btn-order:hover a {
-    /* cursor: pointer; */
-    /* background: #e06733; */
     color: #ffffff;
-    /* cursor: pointer; */
 }
 
 .btn-order a {
@@ -465,7 +408,6 @@ ul.headul li a:hover {
 
 .contaverage {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     max-width: 1222px;
     margin: 0 auto;
@@ -490,7 +432,6 @@ ul.headul li a:hover {
     border: 1px solid #e06733;
     border-radius: 5px;
     background: #ffffff;
-    /* margin-right: 109px; */
     margin-bottom: 39px;
 }
 
@@ -503,11 +444,9 @@ ul.headul li a:hover {
 .imgleafsprice {
     width: 152px;
     height: 174.99px;
-    /* margin-right: 109px; */
 }
 
 .contacts {
-    /* display: flex; */
     background: #edf2ec;
 }
 
@@ -557,7 +496,6 @@ ul.headul li a:hover {
     flex-direction: column;
     margin: 52px 0px 0px 0px;
     box-sizing: border-box;
-    /* background: #EDF2EC; */
     border: 1px solid #000000;
     border-radius: 20px;
     width: 448px;
@@ -584,7 +522,6 @@ ul.headul li a:hover {
 .selectCity.active.passive {
     padding: 0px;
     margin: 148px 0px 0px 0px;
-    /* width: 450px; */
     padding-bottom: 31px;
     background: #edf2ec;
 }
@@ -682,19 +619,12 @@ ul.headul li a:hover {
 
 .calus:hover {
     background: #e06733;
-    /* color: #ffffff; */
     cursor: pointer;
 }
 
 .calus:hover a {
-    /* background: #e06733; */
     color: #ffffff;
-    /* cursor: pointer; */
 }
-
-/* .selectCity.active button {
-    display: none;
-} */
 
 .img-woman {
     margin: 27px 0 0px 0;
@@ -709,26 +639,16 @@ ul.headul li a:hover {
     line-height: 52px;
     color: #499a18;
     margin-left: 40px;
-    /* margin-top: 60px; */
-    /* margin-right: 68px; */
-    /* height: 51px; */
-    /* width: 191px; */
-}
-
-footer {
-    /* height: 130px; */
 }
 
 .year {
     display: flex;
     justify-content: space-between;
-    /* margin: 40px 336px 40px 105px; */
     width: 170px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    /* line-height: 50px; */
 }
 
 .rolling {
@@ -737,7 +657,6 @@ footer {
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    /* margin: 40px 280px 40px 0px; */
     text-decoration: none;
     margin-left: 60px;
     color: #000000;
@@ -776,8 +695,6 @@ ul.inst li {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
 }
 
 .gitrofe {
@@ -805,10 +722,6 @@ ul.inst li {
     padding: 35px 50px 48px 50px;
 }
 
-/* .rolling {
-    color: #000000;
-} */
-
 .contactus a {
     text-decoration: none;
     color: #e06733;
@@ -816,14 +729,11 @@ ul.inst li {
 
 .contactus:hover {
     background: #e06733;
-    /* color: #ffffff; */
     cursor: pointer;
 }
 
 .contactus:hover a {
-    /* background: #e06733; */
     color: #ffffff;
-    /* cursor: pointer; */
 }
 
 .accordion_button {
@@ -857,11 +767,6 @@ ul.inst li {
     border-left: 0.5px solid transparent;
 }
 
-/* ._accordion_button_opened {
-    transition: all 0.4s ease-out;
-    background-color: #aea1a1;
-} */
-
 .accord.opened .arrow {
     transform: rotate(225deg);
     border-bottom: 0.5px solid #ffffff;
@@ -884,7 +789,6 @@ ul.inst li {
 
 @media screen and (max-width: 788px) {
     .about {
-        /* display: flex; */
         padding: 0 0 90px 0;
     }
 
@@ -894,7 +798,6 @@ ul.inst li {
 
     .logo-plants {
         display: flex;
-        /* margin: 47px 149px 50px 0px; */
     }
 
     .rever-welc {
@@ -902,13 +805,7 @@ ul.inst li {
         padding: 5px 50px 40px 50px;
     }
 
-    header {
-        /* padding: 0; */
-        /* padding: 20px 0; */
-    }
-
     .grow {
-        /* margin: 39px 40px 30px 0px; */
         font-size: 35px;
         max-width: 341px;
     }
@@ -925,40 +822,26 @@ ul.inst li {
     }
 
     .learn {
-        /* margin: 0px 230px 70px 0px; */
         width: 158px;
         height: 44px;
         background: #edf2ec;
     }
 
     .welcome img {
-        /* width: 280px; */
-        /* height: 265px; */
         width: 100%;
-        /* height: 100%; */
         height: clamp(1.95rem, calc(43vw - 3.7rem), 140rem);
-        /* flex-basis: 100%; */
-        /* height: 254.15px; */
     }
-
-    /* .leveling-service {
-        padding-left: 50px;
-        padding-right: 50px;
-    } */
 
     .wegarden {
         font-size: 35px;
         line-height: 46px;
         max-width: 423px;
-        /* height: 102px; */
         margin: 40px 0px 30px 0px;
         text-align: center;
     }
 
     .ablor {
         max-width: 668px;
-        /* height: 208px; */
-        /* margin: 0px 0px 40px 0px; */
     }
 
     .houseplant {
@@ -977,7 +860,6 @@ ul.inst li {
         flex-direction: column;
         align-items: center;
         max-width: 668px;
-        /* padding-left: 10px; */
     }
 
     .galpl {
@@ -992,14 +874,12 @@ ul.inst li {
         font-size: 35px;
         line-height: 46px;
         width: 306px;
-        /* height: 94px; */
-        /* margin-left: 0px; */
+
         margin-top: 52px;
         margin-bottom: 40px;
     }
 
     .priceour {
-        /* margin: 0 50px 0 50px; */
         padding-bottom: 90px;
     }
 
@@ -1069,7 +949,6 @@ ul.inst li {
     .ourbest {
         font-size: 25px;
         line-height: 35px;
-        /* text-align: right; */
         max-width: 296px;
         margin: 98px 0px 22px 0px;
     }
@@ -1115,14 +994,11 @@ ul.inst li {
     .uscont {
         margin: 12px 0 100px 0;
         max-width: 192px;
-        /* height: 51px; */
-        /* order: 1; */
     }
 
     .btn-city {
         margin: 0px 0px 0px 0px;
         width: 395px;
-        /* order: 2; */
     }
 
     .img-woman {
@@ -1137,7 +1013,6 @@ ul.inst li {
 
     .year {
         margin: 36px 50px 0px 48px;
-        /* height: 40px; */
     }
 
     .rolling {
@@ -1165,11 +1040,6 @@ ul.inst li {
 }
 
 @media screen and (max-width: 605px) {
-    /* .burger {
-        display: block;
-        margin: 0;
-    } */
-
     .heclas {
         display: none;
     }
@@ -1260,14 +1130,12 @@ ul.inst li {
     }
 
     .priceour {
-        /* display: inline; */
         display: flex;
         flex-direction: column;
     }
 
     .bestus {
         align-items: center;
-        /* margin: 0; */
     }
 
     .imgleafsprice {
@@ -1281,14 +1149,11 @@ ul.inst li {
 
     .word-prices_div {
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         flex-direction: column;
     }
 
     .word-prices {
-        /* font-size: 25px; */
-        /* line-height: 30px; */
         margin: 6px 0px 37px 0;
     }
 
@@ -1305,8 +1170,6 @@ ul.inst li {
     }
 
     header {
-        /* height: 119px; */
-        /* padding: 36px 0; */
         padding: 33px 0;
     }
 
@@ -1316,7 +1179,6 @@ ul.inst li {
     }
 
     .rever-welc {
-        /* flex-direction: row-reverse; */
         padding-right: 25px;
         padding-left: 25px;
     }
@@ -1347,28 +1209,10 @@ ul.inst li {
         width: 330px;
     }
 
-    /* .lineburg {
-        display: block;
-        height: 2px;
-        width: 40px;
-        margin: 6px auto;
-        background-color: #717171;
-        transition: 0.5s;
-    } */
-
     .logo-plants {
         display: flex;
         margin: 47px 0px 50px 0px;
     }
-
-    /* .heclas {
-        display: none;
-    } */
-
-    /* .logo_img {
-        width: 19px;
-        height: 20px;
-    } */
 
     .acc-open.opened {
         width: 96px;
@@ -1410,86 +1254,6 @@ ul.inst li {
         margin: 4px 0px 0px 86px;
     }
 
-    .selectCity.active {
-        /* margin-left: 10px; */
-    }
-
-    /* burger start */
-    /* 
-    .burger {
-        display: block;
-        margin: 0;
-    }
-
-    .popup {
-        position: fixed;
-        display: flex;
-        top: 96px;
-        right: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #edf2ec;
-        z-index: 5;
-        transition: 0.5s;
-        border-top: 2px #e06733 solid;
-    }
-
-    .popup.open {
-        right: 0;
-    }
-
-    .heclas.burger {
-        display: flex;
-        width: 100%;
-        height: 500px;
-    }
-
-    .heclas.burger .headul {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .heclas.burger li {
-        font-size: 25px;
-        font-weight: 700;
-        width: 100%;
-        text-align: center;
-    }
-
-    .heclas.burger li a {
-        display: inline;
-        margin-bottom: 42px;
-    }
-
-    .heclas.burger ul.headul li {
-        display: inline;
-        margin-bottom: 50px;
-        margin-top: 0px;
-    }
-
-    ul.headul li a {
-        text-decoration: none;
-        font-family: 'Inika';
-        font-style: normal;
-        color: #717171;
-    }
-
-    .burger.active .lineburg:nth-of-type(3),
-    .burger.active .lineburg:nth-of-type(4) {
-        display: none;
-    }
-
-    .burger.active .lineburg:nth-of-type(1) {
-        transform: translateY(4px) rotate(0.125turn);
-    }
-
-    .burger.active .lineburg:nth-of-type(2) {
-        transform: translateY(-4px) rotate(-0.125turn);
-    } */
-
-    /* burger end*/
-
     .logo-plants {
         margin: 0;
     }
@@ -1503,20 +1267,12 @@ ul.inst li {
         font-size: 25px;
         line-height: 35px;
         max-width: 330px;
-        /* height: 72px; */
-    }
-
-    header {
-        /* height: 119px; */
-        /* padding: 36px 0; */
     }
 
     .lorem {
         margin: 0px 0px 26px 0px;
         font-size: 16px;
         line-height: 25px;
-        /* width: 314.52px;
-        height: 105.42px; */
     }
 
     .learn {
@@ -1530,19 +1286,15 @@ ul.inst li {
 
     .alabout {
         display: inline;
-        /* padding-left: 15px;
-        padding-right: 15px; */
     }
 
     .wegarden {
         font-size: 25px;
         line-height: 33px;
         color: #499a18;
-        /* width: 288px;
-        height: 57.74px; */
+
         margin: 11px 0px 16px 0;
         text-align: center;
-        /* max-width: 290px; */
     }
 
     .leafs-div {
@@ -1554,7 +1306,6 @@ ul.inst li {
         line-height: 25px;
         color: #636060;
         max-width: 330px;
-        /* height: 228.38px; */
         margin: 0;
     }
 
@@ -1580,7 +1331,6 @@ ul.inst li {
         font-size: 25px;
         line-height: 33px;
         max-width: 187px;
-        /* height: 69px; */
         margin: 0 0 5px 0;
     }
 
@@ -1621,13 +1371,8 @@ ul.inst li {
     }
 
     .priceour {
-        /* display: inline; */
         padding: 19px 50px 18px 50px;
     }
-
-    /* .imgleafsprice {
-        display: none;
-    } */
 
     .word-prices {
         font-size: 25px;
@@ -1640,22 +1385,12 @@ ul.inst li {
         font-size: 15px;
         padding-left: 30px;
         padding-right: 40px;
-        /* width: 176px; */
-    }
-
-    .bastapro div {
-        /* flex-wrap: wrap; */
-        /* height: 177px; */
-        /* row-gap: 14px; */
-        /* margin: 0; */
-        /* padding: 0; */
     }
 
     .bastapro {
         padding: 29px 22px;
         max-width: 178px;
-        /* height: 235px; */
-        /* margin: 0px 0px 19px 0; */
+
         gap: 13px;
     }
 
@@ -1691,23 +1426,10 @@ ul.inst li {
         font-size: 25px;
         line-height: 33px;
         margin: 0 0 80px 0;
-        /* height: 34px; */
     }
 
     .selectCity.active.passive {
         margin-top: 43px;
-    }
-
-    /* .btn-city {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin: 80px 0 0 0;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 262px;
-    } */
-
-    .uscity {
-        /* display: inline; */
     }
 
     .gitrofe {
@@ -1719,7 +1441,6 @@ ul.inst li {
 
     .year {
         margin: 20px 0 0 0;
-        /* height: 40px; */
     }
 
     .rolling {
@@ -1732,27 +1453,21 @@ ul.inst li {
     }
 
     .leveling-header {
-        /* max-width: 327px; */
         padding-left: 16px;
         padding-right: 16px;
     }
 
     .rever-welc {
-        /* flex-direction: row-reverse; */
         padding: 0;
         justify-content: center;
     }
 
     .welearn {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* order: 2; */
         padding: 16px 0 0 10px;
     }
 
     .about {
         padding-bottom: 14px;
-        /* padding-left: 10px; */
     }
 
     .houseplant_div {
@@ -1766,7 +1481,6 @@ ul.inst li {
 
     .word-prices_div {
         display: flex;
-        /* justify-content: center; */
         align-items: center;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1780,7 +1494,6 @@ ul.inst li {
         padding-left: 15px;
         padding-right: 10px;
         align-items: stretch;
-        /* margin-left: 10px; */
     }
 }
 
@@ -1795,12 +1508,7 @@ ul.inst li {
     }
 
     .prices {
-        /* display: flex; */
         padding: 0 10px;
-    }
-
-    .bastapro {
-        /* padding: 0 10px; */
     }
 
     .contaverage {
