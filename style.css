@@ -2,27 +2,25 @@ html,
 body {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 header {
-    display: flex;
-    height: 134px;
-    left: 0px;
-    top: 0px;
     background: #edf2ec;
+    padding: 42px 0;
 }
 
 .plantword {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
+    padding-right: 20px;
 }
 
 .logo-plants {
     display: flex;
-    margin: 56.04px 702px 60.96px 111px;
 }
 
 .headul {
@@ -36,13 +34,11 @@ header {
 
 ul.headul li {
     display: inline;
-    margin-top: 42px;
-    margin-bottom: 42px;
 }
 
 ul.headul li a {
     text-decoration: none;
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     color: #010201;
 }
@@ -61,33 +57,40 @@ ul.headul li a:hover {
 }
 
 .rever-welc {
+    max-width: 1222px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    padding: 64px 50px 55px 50px;
 }
 
 .grow {
-    margin: 98px 109px 42px 220px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-    width: 549px;
+    max-width: 549px;
 }
 
 .lorem {
-    margin: 44px 132.56px 48px 220px;
-    font-family: "Inter";
+    margin: 44px 0 48px 0;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     color: #636060;
-    width: 525.44px;
+    max-width: 525.44px;
+}
+
+.welearn {
+    padding: 10px 0 31.36px 0;
 }
 
 .leafs {
-    margin: 53px 0px 50px 96px;
+    height: clamp(17rem, calc(30.5vw - 3.7rem), 26.5rem);
 }
 
 .plants {
@@ -95,7 +98,7 @@ ul.headul li a:hover {
 }
 
 .learn {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -108,7 +111,6 @@ ul.headul li a:hover {
     box-sizing: border-box;
     border: 2px solid #e06733;
     border-radius: 10px;
-    margin: 48px 500px 94px 220px;
     width: 158px;
     height: 44px;
     background: #edf2ec;
@@ -117,26 +119,30 @@ ul.headul li a:hover {
 .learn:hover {
     background: #e06733;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .about {
-    display: flex;
+    padding: 93px 0 90px 0;
 }
 
 .alabout {
     display: flex;
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 0 50px 0 50px;
 }
 
 .wegarden {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    width: 463px;
-    height: 102px;
-    margin: 160px 295px 40px 105px;
+    max-width: 463px;
+    margin: 68px 0 37px 0;
 }
 
 .profexper {
@@ -144,27 +150,26 @@ ul.headul li a:hover {
 }
 
 .ablor {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
     color: #636060;
-    width: 605px;
-    height: 208px;
-    margin-left: 105px;
-    margin-right: 153px;
-    margin-bottom: 155px;
+    max-width: 605px;
 }
 
 .houseplant {
-    margin-top: 92px;
-    margin-right: 109px;
-    margin-bottom: 90px;
+    height: clamp(17rem, calc(32.3vw - 3.7rem), 29.8rem);
 }
 
 .galpl {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1005px;
+    justify-content: space-between;
+    padding-bottom: 45px;
 }
 
 .buttglp.active {
@@ -178,21 +183,17 @@ ul.headul li a:hover {
 }
 
 .project {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    width: 306px;
-    height: 94px;
-    margin-left: 106px;
-    margin-top: 40px;
-    margin-bottom: 88px;
+    max-width: 306px;
 }
 
 .servbut button {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -204,26 +205,24 @@ ul.headul li a:hover {
     width: 161px;
     height: 50px;
     background: #edf2ec;
+    cursor: pointer;
 }
 
 .servbut {
     display: flex;
     width: 559px;
-    /* height: 50px; */
     justify-content: space-between;
-    margin: 69px 324px 105px 142px;
 }
 
 .servimg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0px 105px 67px 105px;
-    width: 1222px;
+    max-width: 1222px;
 }
 
 .service_item h3 {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -234,7 +233,7 @@ ul.headul li a:hover {
 }
 
 .service_item p {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -266,33 +265,38 @@ ul.headul li a:hover {
     background: #edf2ec;
 }
 
-.prices {
-    display: flex;
+.leveling-service {
+    max-width: 1222px;
+    margin: 0 auto;
+
+    padding: 8px 50px 66px 50px;
 }
 
 .priceour {
     display: flex;
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
+
+    padding: 40px 50px 115px 50px;
 }
 
 .word-prices {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    margin: 38px 646px 60px 106px;
+    margin: 0 0 60px 0;
 }
 
 .bastapro {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
     padding: 34px 41px;
-    width: 332px;
-    /* height: 282.01px;  */
+    width: 248px;
     border: 1px solid #e3e1d5;
     border-radius: 20px;
-    margin: 0px 0px 128.98px 105px;
     gap: 32px;
 }
 
@@ -302,7 +306,7 @@ ul.headul li a:hover {
     background: #edf2ec;
     border-radius: 20px;
     height: 50px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -312,8 +316,10 @@ ul.headul li a:hover {
     padding-left: 40px;
     padding-right: 40px;
     border: transparent;
-    width: 250px;
-    /* margin-bottom: 32px; */
+}
+
+.accord:hover {
+    cursor: pointer;
 }
 
 .accord.opened {
@@ -328,8 +334,7 @@ ul.headul li a:hover {
 
 .acc-open.opened {
     display: block;
-    /* width: 250px;
-    height: 154px; */
+
     background: #d6e7d2;
     border-radius: 0px 0px 20px 20px;
     padding: 0px 40px 0px 40px;
@@ -337,7 +342,7 @@ ul.headul li a:hover {
 }
 
 .acc-open p {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 10px;
@@ -347,16 +352,12 @@ ul.headul li a:hover {
 }
 
 .acc-open p:nth-of-type(2) {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 20px;
     margin-bottom: 4px;
-}
-
-.accordacc {
-    width: 250px;
 }
 
 .red-bastapro {
@@ -369,7 +370,7 @@ ul.headul li a:hover {
     height: 25px;
     background: #ffffff;
     border-radius: 10px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -379,24 +380,38 @@ ul.headul li a:hover {
     border: 0;
 }
 
+.btn-order:hover {
+    background: #e06733;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-order:hover a {
+    color: #ffffff;
+}
+
 .btn-order a {
     text-decoration: none;
     color: #717171;
 }
 
 .ourbest {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
     text-align: right;
-    width: 452px;
-    margin: 38px 109px 40px 0px;
+    max-width: 452px;
+    margin: 0 0 40px 0px;
 }
 
 .contaverage {
     display: flex;
+    justify-content: space-between;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 25px 50px 0 50px;
 }
 
 .uscity {
@@ -404,7 +419,7 @@ ul.headul li a:hover {
 }
 
 .contactus {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -417,7 +432,6 @@ ul.headul li a:hover {
     border: 1px solid #e06733;
     border-radius: 5px;
     background: #ffffff;
-    margin-right: 109px;
     margin-bottom: 39px;
 }
 
@@ -430,11 +444,9 @@ ul.headul li a:hover {
 .imgleafsprice {
     width: 152px;
     height: 174.99px;
-    margin-right: 109px;
 }
 
 .contacts {
-    display: flex;
     background: #edf2ec;
 }
 
@@ -446,17 +458,25 @@ ul.headul li a:hover {
     background: #d6e7d2;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171;
-    margin: 148px 0px 0px 0px;
+    margin: 122px 0px 0px 0px;
     padding-left: 20px;
     padding-right: 35px;
     width: 395px;
+}
+
+.btn-city:hover {
+    cursor: pointer;
+}
+
+.selectItem:hover {
+    cursor: pointer;
 }
 
 .btn-city.active.passive {
@@ -476,7 +496,6 @@ ul.headul li a:hover {
     flex-direction: column;
     margin: 52px 0px 0px 0px;
     box-sizing: border-box;
-    /* background: #EDF2EC; */
     border: 1px solid #000000;
     border-radius: 20px;
     width: 448px;
@@ -503,7 +522,6 @@ ul.headul li a:hover {
 .selectCity.active.passive {
     padding: 0px;
     margin: 148px 0px 0px 0px;
-    width: 450px;
     padding-bottom: 31px;
     background: #edf2ec;
 }
@@ -532,7 +550,7 @@ ul.headul li a:hover {
 }
 
 .selectItem span {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -555,7 +573,7 @@ ul.headul li a:hover {
 }
 
 .ciphof {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -570,7 +588,7 @@ ul.headul li a:hover {
 }
 
 .numbstreet {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -585,7 +603,7 @@ ul.headul li a:hover {
 }
 
 .calus {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -599,50 +617,54 @@ ul.headul li a:hover {
     margin: 18px 0px 0px 164px;
 }
 
-/* .selectCity.active button {
-    display: none;
-} */
+.calus:hover {
+    background: #e06733;
+    cursor: pointer;
+}
+
+.calus:hover a {
+    color: #ffffff;
+}
 
 .img-woman {
-    margin: 53px 113px 0px 106px;
+    margin: 27px 0 0px 0;
+    height: clamp(10rem, calc(34vw - 3.7rem), 31rem);
 }
 
 .uscont {
-    font-family: "Inika";
+    font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     color: #499a18;
-    margin-top: 60px;
-    margin-right: 68px;
-    height: 51px;
-}
-
-footer {
-    height: 130px;
+    margin-left: 40px;
 }
 
 .year {
     display: flex;
     justify-content: space-between;
-    margin: 40px 336px 40px 105px;
     width: 170px;
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 50px;
 }
 
 .rolling {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    margin: 40px 280px 40px 0px;
     text-decoration: none;
+    margin-left: 60px;
+    color: #000000;
+}
+
+.rolling:hover {
+    cursor: pointer;
+    color: #e06733;
 }
 
 .inst {
@@ -654,65 +676,145 @@ footer {
 
 .github {
     text-decoration: none;
+    color: #000000;
+}
+
+.github:hover {
+    cursor: pointer;
+    color: #e06733;
 }
 
 ul.inst li {
     display: inline;
 }
 
-.leveling {
+.leveling-header {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1218px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
 }
 
 .gitrofe {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
+.logo_img {
+    width: 19px;
+    height: 20px;
+}
+
+.burger {
+    display: none;
+}
+
+.popup {
+    display: none;
+}
+
+.leveling-footer {
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 35px 50px 48px 50px;
+}
+
+.contactus a {
+    text-decoration: none;
+    color: #e06733;
+}
+
+.contactus:hover {
+    background: #e06733;
+    cursor: pointer;
+}
+
+.contactus:hover a {
+    color: #ffffff;
+}
+
+.accordion_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: #d9d9d9;
+    border-radius: 45%;
+}
+
+.accord.opened .accordion_button {
+    transition: all 0.4s ease-out;
+    background-color: #aea1a1;
+}
+
+.btn-city.active .accordion_button {
+    transition: all 0.4s ease-out;
+    background-color: #aea1a1;
+}
+
+.arrow {
+    transition: all 0.4s ease-out;
+    width: 2px;
+    height: 2px;
+    transform: rotate(45deg);
+    border-bottom: 0.5px solid #717171;
+    border-right: 0.5px solid #717171;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+.accord.opened .arrow {
+    transform: rotate(225deg);
+    border-bottom: 0.5px solid #ffffff;
+    border-right: 0.5px solid #ffffff;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+.btn-city.active .arrow {
+    transform: rotate(225deg);
+    border-bottom: 0.5px solid #ffffff;
+    border-right: 0.5px solid #ffffff;
+    border-top: 0.5px solid transparent;
+    border-left: 0.5px solid transparent;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 788px) {
+    .about {
+        padding: 0 0 90px 0;
+    }
+
     .leveling {
         width: 668px;
     }
 
     .logo-plants {
         display: flex;
-        margin: 47px 149px 50px 0px;
     }
 
     .rever-welc {
-        display: flex;
         flex-direction: row-reverse;
-    }
-
-    header {
-        display: flex;
-        height: 117px;
-        left: 0px;
-        top: 0px;
-        background: #edf2ec;
+        padding: 5px 50px 40px 50px;
     }
 
     .grow {
-        margin: 39px 40px 30px 0px;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
         font-size: 35px;
-        line-height: 50px;
-        color: #717171;
-        width: 341px;
+        max-width: 341px;
     }
 
     .lorem {
-        margin: 0px 42px 35px 5px;
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 400;
+        margin: 31px 0 35px 4px;
         font-size: 16px;
         line-height: 25px;
-        color: #636060;
-        width: 341px;
+        max-width: 341px;
     }
 
     .leafs {
@@ -720,59 +822,32 @@ ul.inst li {
     }
 
     .learn {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        color: #000000;
-        box-sizing: border-box;
-        border: 2px solid #e06733;
-        border-radius: 10px;
-        margin: 0px 230px 70px 0px;
         width: 158px;
         height: 44px;
         background: #edf2ec;
     }
 
     .welcome img {
-        width: 280px;
-        height: 265px;
+        width: 100%;
+        height: clamp(1.95rem, calc(43vw - 3.7rem), 140rem);
     }
 
     .wegarden {
-        font-family: "Inika";
-        font-style: normal;
-        font-weight: 400;
         font-size: 35px;
         line-height: 46px;
-        color: #499a18;
-        width: 423px;
-        height: 102px;
-        margin: 40px 0px 40px 0px;
+        max-width: 423px;
+        margin: 40px 0px 30px 0px;
         text-align: center;
     }
 
     .ablor {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        color: #636060;
-        width: 668px;
-        height: 208px;
-        margin: 0px 0px 40px 0px;
+        max-width: 668px;
     }
 
     .houseplant {
         width: 250px;
         height: 258px;
-        margin: 0px 0px 90px 0px;
+        margin: 45px 0px 4px 0px;
     }
 
     .alabout {
@@ -784,31 +859,33 @@ ul.inst li {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 668px;
+        max-width: 668px;
     }
 
     .galpl {
         display: inline;
     }
 
+    .leveling-service {
+        padding-bottom: 2px;
+    }
+
     .project {
-        font-family: "Inika";
-        font-style: normal;
-        font-weight: 400;
         font-size: 35px;
         line-height: 46px;
-        color: #499a18;
         width: 306px;
-        height: 94px;
-        margin-left: 0px;
-        margin-top: 60px;
+
+        margin-top: 52px;
         margin-bottom: 40px;
+    }
+
+    .priceour {
+        padding-bottom: 90px;
     }
 
     .servbut {
         display: flex;
         width: 559px;
-        /* height: 50px; */
         justify-content: space-between;
         margin: 0px 0px 40px 0px;
     }
@@ -817,8 +894,8 @@ ul.inst li {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0px 0px 30px 0px;
-        width: 668px;
+        margin: 0px 0px 30px 0;
+        max-width: 668px;
     }
 
     .servimg img {
@@ -835,7 +912,7 @@ ul.inst li {
     }
 
     .service_item p {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -849,7 +926,7 @@ ul.inst li {
     }
 
     .service_item h3 {
-        font-family: "Inter";
+        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -860,31 +937,24 @@ ul.inst li {
     }
 
     .word-prices {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
         font-size: 35px;
         line-height: 42px;
-        margin: 40px 0px 57px 14px;
+        margin: 0 0 57px 14px;
     }
 
     .bastapro {
-        margin: 0px 0px 163px 0px;
+        margin: 0;
     }
 
     .ourbest {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
         font-size: 25px;
         line-height: 35px;
-        text-align: right;
-        width: 296px;
-        margin: 139px 0px 22px 42px;
+        max-width: 296px;
+        margin: 98px 0px 22px 0px;
     }
 
     .contactus {
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -897,7 +967,7 @@ ul.inst li {
         border: 1px solid #e06733;
         border-radius: 5px;
         background: #ffffff;
-        margin: 7px 0px 34px 124px;
+        margin: 7px 0px 34px 0;
     }
 
     .imgleafsprice {
@@ -910,17 +980,20 @@ ul.inst li {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        width: 668px;
+        max-width: 668px;
+        flex-wrap: wrap;
     }
 
     .uscity {
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 1;
     }
 
     .uscont {
-        margin: 40px auto 100px auto;
-        width: 192px;
-        height: 51px;
+        margin: 12px 0 100px 0;
+        max-width: 192px;
     }
 
     .btn-city {
@@ -931,16 +1004,20 @@ ul.inst li {
     .img-woman {
         width: 200px;
         height: 248.49px;
-        margin: 244px 0px 0px 20px;
+        margin: 248px 0px 0px 20px;
+    }
+
+    .leveling-footer {
+        padding: 0 0 50px 0;
     }
 
     .year {
-        margin: 20px 50px 0px 48px;
-        height: 40px;
+        margin: 36px 50px 0px 48px;
     }
 
     .rolling {
-        margin: 0px 20px 15px 29px;
+        margin: 0px 0px 15px 0px;
+        width: 210px;
     }
 
     .gitrofe {
@@ -951,88 +1028,27 @@ ul.inst li {
 
     .inst {
         margin: 0;
+        padding: 0;
+    }
+
+    .leafs-div {
+        display: flex;
+        justify-content: flex-end;
+        width: 280px;
+        height: 265px;
     }
 }
 
-
-
-
-@media screen and (max-width: 767.98px) {
-    .leveling {
-        width: 330px;
-    }
-
-    .lineburg {
-        display: block;
-        height: 2px;
-        width: 40px;
-        margin: 6px auto;
-        background-color: #717171;
-        transition: 0.5s;
-    }
-
-    .logo-plants {
-        display: flex;
-        margin: 47px 0px 50px 0px;
-    }
-
+@media screen and (max-width: 605px) {
     .heclas {
         display: none;
-    }
-
-    .logo_img {
-        width: 19px;
-        height: 20px;
-    }
-
-    .acc-open.opened {
-        width: 96px;
-        height: 128px;
-    }
-
-    .selectItem.top {
-        width: 284px;
-        margin-left: 10px;
-    }
-
-    .allcard.active {
-        margin: 52px 0px 0px 21px;
-        width: 282px;
-        height: 211px;
-    }
-
-    .numbstreet {
-        margin: 34px 0px 0px 0px;
-        line-height: 16px;
-    }
-
-    .numbstreet p {
-        margin: 0px 0px 20px 0px;
-        width: 155px;
-    }
-
-    .ciphof {
-        padding: 34px 0px 0px 37px;
-        line-height: 16px;
-    }
-
-    .ciphof p {
-        margin: 0px 0px 20px 0px;
-        width: 70px;
-    }
-
-    .calus {
-        margin: 4px 0px 0px 86px;
-    }
-
-    .selectCity.active {
-        margin-left: 10px;
     }
 
     /* burger start */
 
     .burger {
-        margin: 23px 25px 36px 0px;
+        display: block;
+        margin: 0;
     }
 
     .popup {
@@ -1084,7 +1100,7 @@ ul.inst li {
 
     ul.headul li a {
         text-decoration: none;
-        font-family: "Inika";
+        font-family: 'Inika';
         font-style: normal;
         color: #717171;
     }
@@ -1104,8 +1120,142 @@ ul.inst li {
 
     /* burger end*/
 
+    .lineburg {
+        display: block;
+        height: 2px;
+        width: 40px;
+        margin: 6px auto;
+        background-color: #717171;
+        transition: 0.5s;
+    }
+
+    .priceour {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bestus {
+        align-items: center;
+    }
+
+    .imgleafsprice {
+        display: none;
+    }
+
+    .ourbest {
+        text-align: center;
+        margin: 0px 22px 0px;
+    }
+
+    .word-prices_div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .word-prices {
+        margin: 6px 0px 37px 0;
+    }
+
+    .btn-city {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 262px;
+    }
+
+    .bastapro {
+        margin: 0px 0px 19px 0;
+    }
+
+    header {
+        padding: 33px 0;
+    }
+
+    .leveling-header {
+        padding-right: 20px;
+        padding-left: 25px;
+    }
+
+    .rever-welc {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .alabout {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .leveling-service {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .priceour {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .contaverage {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .leveling {
+        width: 330px;
+    }
+
     .logo-plants {
-        margin: 36px 224px 39px 0px;
+        display: flex;
+        margin: 47px 0px 50px 0px;
+    }
+
+    .acc-open.opened {
+        width: 96px;
+        height: 128px;
+    }
+
+    .selectItem.top {
+        width: 284px;
+        margin-left: 10px;
+    }
+
+    .allcard.active {
+        margin: 52px 0px 0px 21px;
+        width: 282px;
+        height: 211px;
+    }
+
+    .numbstreet {
+        margin: 34px 0px 0px 0px;
+        line-height: 16px;
+    }
+
+    .numbstreet p {
+        margin: 0px 0px 20px 0px;
+        width: 155px;
+    }
+
+    .ciphof {
+        padding: 34px 0px 0px 37px;
+        line-height: 16px;
+    }
+
+    .ciphof p {
+        margin: 0px 0px 20px 0px;
+        width: 70px;
+    }
+
+    .calus {
+        margin: 4px 0px 0px 86px;
+    }
+
+    .logo-plants {
+        margin: 0;
     }
 
     .leafs {
@@ -1113,23 +1263,16 @@ ul.inst li {
     }
 
     .grow {
-        margin: 0px 0px 17px 0px;
+        margin: 8px 0px 17px 0px;
         font-size: 25px;
         line-height: 35px;
-        width: 330px;
-        height: 72px;
-    }
-
-    header {
-        height: 119px;
+        max-width: 330px;
     }
 
     .lorem {
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 26px 0px;
         font-size: 16px;
         line-height: 25px;
-        width: 314.52px;
-        height: 105.42px;
     }
 
     .learn {
@@ -1149,25 +1292,27 @@ ul.inst li {
         font-size: 25px;
         line-height: 33px;
         color: #499a18;
-        width: 288px;
-        height: 57.74px;
-        margin: 30px 0px 22px 20px;
+
+        margin: 11px 0px 16px 0;
         text-align: center;
+    }
+
+    .leafs-div {
+        display: none;
     }
 
     .ablor {
         font-size: 15px;
         line-height: 25px;
         color: #636060;
-        width: 330px;
-        height: 228.38px;
+        max-width: 330px;
         margin: 0;
     }
 
     .houseplant {
         width: 150px;
         height: 147px;
-        margin: 0px 0px 26px 90px;
+        margin: 0;
     }
 
     .galpl {
@@ -1185,9 +1330,8 @@ ul.inst li {
     .project {
         font-size: 25px;
         line-height: 33px;
-        width: 187px;
-        height: 69px;
-        margin: 30px 0px 5px 0px;
+        max-width: 187px;
+        margin: 0 0 5px 0;
     }
 
     .servbut button {
@@ -1202,7 +1346,7 @@ ul.inst li {
         width: 252px;
         height: 89px;
         justify-content: space-between;
-        margin: 35px 0px 30px 0px;
+        margin: 40px 0px 30px 0px;
     }
 
     .servimg img {
@@ -1213,7 +1357,7 @@ ul.inst li {
     .service_item {
         width: 280px;
         height: 450px;
-        margin-bottom: 32px;
+        margin-bottom: 31px;
     }
 
     .service_item p {
@@ -1227,17 +1371,13 @@ ul.inst li {
     }
 
     .priceour {
-        display: inline;
-    }
-
-    .imgleafsprice {
-        display: none;
+        padding: 19px 50px 18px 50px;
     }
 
     .word-prices {
         font-size: 25px;
         line-height: 30px;
-        margin: 19px 0px 37px 126px;
+        margin: 6px 0px 37px 0;
     }
 
     .accord {
@@ -1245,21 +1385,12 @@ ul.inst li {
         font-size: 15px;
         padding-left: 30px;
         padding-right: 40px;
-        width: 176px;
-    }
-
-    .bastapro div {
-        /* height: 177px; */
-        row-gap: 14px;
-        margin: 0;
-        padding: 0;
     }
 
     .bastapro {
         padding: 29px 22px;
-        width: 224px;
-        /* height: 235px; */
-        margin: 0px 0px 19px 53px;
+        max-width: 178px;
+
         gap: 13px;
     }
 
@@ -1267,13 +1398,8 @@ ul.inst li {
         font-size: 20px;
         line-height: 35px;
         text-align: center;
-        width: 230px;
+        max-width: 230px;
         margin: 0px 0px 12px 0px;
-    }
-
-    .bestus {
-        align-items: center;
-        margin: 0 48px;
     }
 
     .contactus {
@@ -1281,16 +1407,17 @@ ul.inst li {
         line-height: 20px;
         width: 121px;
         height: 35px;
-        margin: 8px 0px 40px 0px;
+        margin: 8px 0px 22px 0px;
     }
 
     .contaverage {
         display: flex;
         flex-direction: column-reverse;
+        padding: 25px 50px 0 27px;
     }
 
     .img-woman {
-        margin: 133px 0px 0px 112px;
+        margin: 133px 0 0 0;
         width: 100px;
         height: 124.25px;
     }
@@ -1298,41 +1425,105 @@ ul.inst li {
     .uscont {
         font-size: 25px;
         line-height: 33px;
-        margin: 25px 0px 0px 103px;
-        height: 34px;
+        margin: 0 0 80px 0;
     }
 
     .selectCity.active.passive {
         margin-top: 43px;
     }
 
-    .btn-city {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin: 80px 0px 0px 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 262px;
-    }
-
-    .uscity {
-        display: inline;
-    }
-
     .gitrofe {
         flex-direction: column;
         box-sizing: border-box;
+        flex-wrap: wrap;
+        margin: 0 15px;
     }
 
     .year {
-        margin: 7px 50px 0px 77px;
-        height: 40px;
+        margin: 20px 0 0 0;
     }
 
     .rolling {
-        margin: 0px 20px 0px 60px;
+        margin: 5px 0 0 0;
+        width: 210px;
     }
 
     .inst {
-        margin: 0px 0px 0px 32px;
+        margin: 0 0 15px 0;
+    }
+
+    .leveling-header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .rever-welc {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .welearn {
+        padding: 16px 0 0 10px;
+    }
+
+    .about {
+        padding-bottom: 14px;
+    }
+
+    .houseplant_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .leveling-service {
+        padding: 30px 0 0 15px;
+    }
+
+    .word-prices_div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .leveling-footer {
+        padding: 0;
+    }
+
+    .welore {
+        padding-left: 15px;
+        padding-right: 10px;
+        align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .servimg {
+        margin: 0;
+    }
+
+    .priceour {
+        margin: 0;
+        padding: 0;
+    }
+
+    .prices {
+        padding: 0 10px;
+    }
+
+    .contaverage {
+        padding-left: 10px;
+    }
+
+    .leveling-service {
+        padding-left: 10px;
+    }
+
+    .welore {
+        padding-left: 10px;
+    }
+
+    .gitrofe {
+        margin-left: 10px;
     }
 }
