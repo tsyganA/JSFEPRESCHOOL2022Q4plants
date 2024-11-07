@@ -1204,7 +1204,7 @@ ul.inst li {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     .leveling {
         width: 330px;
     }
@@ -1266,7 +1266,7 @@ ul.inst li {
         margin: 8px 0px 17px 0px;
         font-size: 25px;
         line-height: 35px;
-        max-width: 330px;
+        max-width: 349px;
     }
 
     .lorem {
@@ -1292,7 +1292,7 @@ ul.inst li {
         font-size: 25px;
         line-height: 33px;
         color: #499a18;
-
+        max-width: 370px;
         margin: 11px 0px 16px 0;
         text-align: center;
     }
@@ -1454,7 +1454,7 @@ ul.inst li {
 
     .leveling-header {
         padding-left: 16px;
-        padding-right: 16px;
+        padding-right: 35px;
     }
 
     .rever-welc {
@@ -1463,7 +1463,8 @@ ul.inst li {
     }
 
     .welearn {
-        padding: 16px 0 0 10px;
+        padding: 14px 0 0 0;
+        /* max-width: 400px; */
     }
 
     .about {
