@@ -992,19 +992,19 @@ ul.inst li {
     }
 
     .uscont {
-        margin: 12px 0 100px 0;
+        margin: 12px 0 0 0;
         max-width: 192px;
     }
 
     .btn-city {
-        margin: 0px 0px 0px 0px;
+        margin: 100px 0px 248px 0px;
         width: 395px;
     }
 
     .img-woman {
         width: 200px;
         height: 248.49px;
-        margin: 248px 0px 0px 20px;
+        margin: 0 0px 0px 20px;
     }
 
     .leveling-footer {
@@ -1036,6 +1036,23 @@ ul.inst li {
         justify-content: flex-end;
         width: 280px;
         height: 265px;
+    }
+
+    .selectCity.active.passive {
+        margin: 60px 0px 0px 0px;
+        padding-bottom: 15px;
+    }
+
+    .btn-city.active {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .allcard.active {
+        margin: 63px 0px 0px 0px;
+    }
+
+    .selectCity.active {
+        margin-bottom: 10px;
     }
 }
 
@@ -1159,7 +1176,7 @@ ul.inst li {
 
     .btn-city {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin: 0;
+        margin: 80px 0px 135px 0px;
         padding-left: 20px;
         padding-right: 20px;
         width: 262px;
@@ -1210,6 +1227,49 @@ ul.inst li {
         justify-content: space-between;
         margin: 40px 0px 30px 0px;
     }
+
+    .selectCity.active.passive {
+        margin: 43px 0px 0px 0px;
+        padding-bottom: 15px;
+    }
+
+    .btn-city.active {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .allcard.active {
+        margin-top: 50px;
+        width: 282px;
+        height: 211px;
+    }
+
+    .selectCity.active {
+        margin-bottom: 10px;
+    }
+
+    .numbstreet p {
+        margin: 0px 0px 20px 0px;
+        width: 155px;
+    }
+
+    .ciphof p {
+        margin: 0px 0px 20px 0px;
+        width: 70px;
+    }
+
+    .ciphof {
+        padding: 34px 0px 0px 37px;
+        line-height: 16px;
+    }
+
+    .numbstreet {
+        margin: 34px 0px 0px 0px;
+        line-height: 16px;
+    }
+
+    .calus {
+        margin: 4px 0px 0px 86px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -1236,30 +1296,6 @@ ul.inst li {
         margin: 52px 0px 0px 21px;
         width: 282px;
         height: 211px;
-    }
-
-    .numbstreet {
-        margin: 34px 0px 0px 0px;
-        line-height: 16px;
-    }
-
-    .numbstreet p {
-        margin: 0px 0px 20px 0px;
-        width: 155px;
-    }
-
-    .ciphof {
-        padding: 34px 0px 0px 37px;
-        line-height: 16px;
-    }
-
-    .ciphof p {
-        margin: 0px 0px 20px 0px;
-        width: 70px;
-    }
-
-    .calus {
-        margin: 4px 0px 0px 86px;
     }
 
     .logo-plants {
@@ -1425,7 +1461,7 @@ ul.inst li {
     }
 
     .img-woman {
-        margin: 133px 0 0 0;
+        margin: 0;
         width: 100px;
         height: 124.25px;
     }
@@ -1433,11 +1469,7 @@ ul.inst li {
     .uscont {
         font-size: 25px;
         line-height: 33px;
-        margin: 0 0 80px 0;
-    }
-
-    .selectCity.active.passive {
-        margin-top: 43px;
+        margin: 0;
     }
 
     .gitrofe {
@@ -1472,7 +1504,6 @@ ul.inst li {
 
     .welearn {
         padding: 14px 0 0 18px;
-        /* max-width: 400px; */
     }
 
     .about {
@@ -1503,7 +1534,6 @@ ul.inst li {
     .welore {
         padding-left: 18px;
         padding-right: 18px;
-        /* align-items: stretch; */
     }
 }
 
@@ -1539,6 +1569,5 @@ ul.inst li {
 
     .welearn {
         padding-left: 10px;
-        /* max-width: 400px; */
     }
 }
