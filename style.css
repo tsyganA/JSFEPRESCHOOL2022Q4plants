@@ -1202,6 +1202,14 @@ ul.inst li {
         padding-right: 25px;
         padding-left: 25px;
     }
+
+    .servbut {
+        flex-flow: row wrap;
+        width: 350px;
+        height: 140px;
+        justify-content: space-between;
+        margin: 40px 0px 30px 0px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -1293,7 +1301,7 @@ ul.inst li {
         line-height: 33px;
         color: #499a18;
         max-width: 370px;
-        margin: 11px 25px 16px 0;
+        margin: 11px 0 16px 0;
         text-align: center;
     }
 
@@ -1371,7 +1379,7 @@ ul.inst li {
     }
 
     .priceour {
-        padding: 19px 50px 18px 30px;
+        padding: 19px 0 18px 0;
     }
 
     .word-prices {
@@ -1413,7 +1421,7 @@ ul.inst li {
     .contaverage {
         display: flex;
         flex-direction: column-reverse;
-        padding: 25px 50px 0 27px;
+        padding: 25px 18px 0 18px;
     }
 
     .img-woman {
@@ -1436,7 +1444,7 @@ ul.inst li {
         flex-direction: column;
         box-sizing: border-box;
         flex-wrap: wrap;
-        margin: 0 37px 0 15px;
+        margin: 0;
     }
 
     .year {
@@ -1453,7 +1461,7 @@ ul.inst li {
     }
 
     .leveling-header {
-        padding-left: 16px;
+        padding-left: 35px;
         padding-right: 35px;
     }
 
@@ -1463,7 +1471,7 @@ ul.inst li {
     }
 
     .welearn {
-        padding: 14px 0 0 0;
+        padding: 14px 0 0 18px;
         /* max-width: 400px; */
     }
 
@@ -1477,7 +1485,8 @@ ul.inst li {
     }
 
     .leveling-service {
-        padding: 30px 0 0 15px;
+        padding: 30px 18px 0 18px;
+        width: 330px;
     }
 
     .word-prices_div {
@@ -1492,9 +1501,9 @@ ul.inst li {
     }
 
     .welore {
-        padding-left: 15px;
-        padding-right: 10px;
-        align-items: stretch;
+        padding-left: 18px;
+        padding-right: 18px;
+        /* align-items: stretch; */
     }
 }
 
