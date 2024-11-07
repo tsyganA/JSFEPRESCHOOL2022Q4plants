@@ -1017,7 +1017,7 @@ ul.inst li {
 
     .rolling {
         margin: 0px 0px 15px 0px;
-        width: 210px;
+        width: 211px;
     }
 
     .gitrofe {
@@ -1293,7 +1293,7 @@ ul.inst li {
         line-height: 33px;
         color: #499a18;
         max-width: 370px;
-        margin: 11px 0px 16px 0;
+        margin: 11px 25px 16px 0;
         text-align: center;
     }
 
@@ -1371,7 +1371,7 @@ ul.inst li {
     }
 
     .priceour {
-        padding: 19px 50px 18px 50px;
+        padding: 19px 50px 18px 30px;
     }
 
     .word-prices {
@@ -1436,7 +1436,7 @@ ul.inst li {
         flex-direction: column;
         box-sizing: border-box;
         flex-wrap: wrap;
-        margin: 0 15px;
+        margin: 0 37px 0 15px;
     }
 
     .year {
@@ -1445,7 +1445,7 @@ ul.inst li {
 
     .rolling {
         margin: 5px 0 0 0;
-        width: 210px;
+        width: 211px;
     }
 
     .inst {
@@ -1526,5 +1526,10 @@ ul.inst li {
 
     .gitrofe {
         margin-left: 10px;
+    }
+
+    .welearn {
+        padding-left: 10px;
+        /* max-width: 400px; */
     }
 }
